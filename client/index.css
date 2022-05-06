@@ -1,0 +1,39 @@
+body {
+	background-color: #232323;
+	font-family: "Open Sans";
+	user-select: none;
+	overflow: hidden;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.button {
+	background-color: #333232;
+	border-radius: 5px;
+	margin-top:15px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:20px;
+	width: 80%;
+	height: 60%;
+	cursor: pointer;
+	vertical-align: middle;
+	
+}
+.button:hover{
+	background-color: #525050;
+}
+.button .buttonName{
+	letter-spacing: 1px;
+	font-size: 4vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-top:10px;
+	vertical-align: middle;
+	
+
+}

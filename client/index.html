@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<title>Kraken</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="button" onclick="csInterface.evalScript(`importHarvesting()`)">
+			<div class="buttonName">HARVESTER</div>
+			
+		</div>
+		<div class="button">
+			<div class="buttonName" onclick="csInterface.evalScript(`importHand()`)">HAND</div>
+		</div>
+		<!-- <div class="button">
+			<div class="buttonName">SET-UP</div>
+		</div> -->
+	</div>
+
+	
+	<script src="config.json"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="CSInterface.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
